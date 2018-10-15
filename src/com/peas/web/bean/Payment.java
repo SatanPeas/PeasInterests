@@ -4,12 +4,12 @@ public class Payment {
 
     private long paymentId;
     private long accountId;
-    private int inOut;
-    private String comsumptionPurpose;
-    private String paymentMethod;
-    private String comsumptionType;
+    private int inOutId;
+    private int paymentMethodId;
     private double money;
-    private String backup;
+    private String keywords;
+    private String date;
+    private int status;
 
     public Payment() {
 
@@ -35,37 +35,22 @@ public class Payment {
         this.accountId = accountId;
     }
 
-    public int getInOut() {
-        return inOut;
+    public int getInOutId() {
+        return inOutId;
     }
 
-    public void setInOut(int inOut) {
-        this.inOut = inOut;
+    public void setInOutId(int inOutId) {
+        this.inOutId = inOutId;
     }
 
-    public String getComsumptionPurpose() {
-        return comsumptionPurpose;
+    public int getPaymentMethodId() {
+        return paymentMethodId;
     }
 
-    public void setComsumptionPurpose(String comsumptionPurpose) {
-        this.comsumptionPurpose = comsumptionPurpose;
+    public void setPaymentMethodId(int paymentMethodId) {
+        this.paymentMethodId = paymentMethodId;
     }
 
-    public String getPaymentMethod() {
-        return paymentMethod;
-    }
-
-    public void setPaymentMethod(String paymentMethod) {
-        this.paymentMethod = paymentMethod;
-    }
-
-    public String getComsumptionType() {
-        return comsumptionType;
-    }
-
-    public void setComsumptionType(String comsumptionType) {
-        this.comsumptionType = comsumptionType;
-    }
 
     public double getMoney() {
         return money;
@@ -75,11 +60,27 @@ public class Payment {
         this.money = money;
     }
 
-    public String getBackup() {
-        return backup;
+    public String getKeywords() {
+        return keywords;
     }
 
-    public void setBackup(String backup) {
-        this.backup = backup;
+    public void setKeywords(String keywords) {
+        this.keywords = keywords;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 }

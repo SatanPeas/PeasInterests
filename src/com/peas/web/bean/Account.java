@@ -43,5 +43,4 @@ public class Account {
     public void setEmailAddress(String emaiAddress) {
         this.emaiAddress = emaiAddress;
     }
-
 }

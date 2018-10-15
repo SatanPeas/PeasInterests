@@ -16,6 +16,7 @@
           <element id="library" level="project" name="mariadb-java-client-2.2.0" />
           <element id="library" level="project" name="servlet-api" />
           <element id="library" level="project" name="mybatis-3.4.5" />
+          <element id="library" level="module" name="Spring MVC-4.3.12.RELEASE" module-name="PeasInterests" />
         </element>
       </element>
     </root>
